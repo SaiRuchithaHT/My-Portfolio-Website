@@ -2542,7 +2542,7 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 2em 0;
+  margin: 0 0 0 0;
   padding-left: 1em;
 }
 
@@ -2730,12 +2730,14 @@ ul.actions.fit.stacked {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0;
+  padding: 0 0.5em 0 0;
+  margin: 0 0 0 0;
+  text-align: center;
 }
 
 ul.icons li {
   display: inline-block;
-  padding: 0 0.65em 0 0;
+  padding: 0 0.3em 0 0.3em;
 }
 
 ul.icons li:last-child {
@@ -4094,4 +4096,111 @@ body.is-preload #header.alt .logo {
   .ExperienceCard_container_aokeq {
     width: 90%;
   }
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 550px) {
+  #projects {
+      width: 80%;
+  }
+}
+
+.user-details {
+  text-align: center;
+  margin: 5px auto;
+}
+
+.user-projects {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-projects img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.user-projects h3 {
+  margin: 1em 0 1em 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.user-projects p {
+  margin: 0 5px;
+  text-align: justify;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-width: 550px) {
+  .project-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+  }
+
+  .contents {
+      text-align: center;
+      width: 48%;
+  }
+
+  .images-left, .images-right {
+      display: flex;
+      align-items: stretch;
+      width: 48%;
+  }
+
+  .images-left img, .images-right img {
+    object-fit: cover; 
+    height: 100%; 
+    width: 100%; 
+    border-radius: 5px;
+    border: 1px solid #636363;
+  }
+
+  .images-right {
+    order: 1;
+  }
+
+  .images-left {
+    order: 0;
+  }
+}
+
+.project-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px 15px;
+  color: #1488CC;
+  background-color: transparent;
+  border: 1px solid #1488CC;
+  border-radius: 10px;
+  text-align: center;
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+
+.project-link:active,
+.project-link:hover {
+  background-color: #5347a8;
+  border-color: #5347a8;
+  color: #fff;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
