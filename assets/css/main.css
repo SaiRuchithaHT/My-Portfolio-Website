@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -2778,6 +2772,7 @@ body {
 
 header.major {
   margin-bottom: 3em;
+  text-align: center;
 }
 
 header.major h2 {
@@ -2791,6 +2786,9 @@ header.major h2:after {
   height: 2px;
   margin: 0.7em 0 1em 0;
   border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 251, 252, 0.227);
 }
 
 section.special header.major h2:after,
@@ -3986,34 +3984,6 @@ body.is-preload #header.alt .logo {
 }
 
 /* Education Section */
-#education {
-  padding: 4em 0;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-#education .row > * {
-  padding: 0;
-}
-
-#education .major h2 {
-  font: inherit;
-  font-size: 2em;
-  margin-bottom: 1em;
-  font-weight: 300;
-}
-
-#education .major h2:after {
-  display: block;
-  content: "";
-  width: 3.25em;
-  height: 2px;
-  margin: 0.7em 0 1em 0;
-  border-radius: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(255, 251, 252, 0.227);
-}
 
 .row {
   display: flex;
@@ -4106,24 +4076,6 @@ body.is-preload #header.alt .logo {
   .ExperienceCard_container_aokeq {
     width: 90%;
   }
-}
-
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width: 550px) {
-  #projects {
-      width: 80%;
-  }
-}
-
-.user-details {
-  text-align: center;
-  margin: 5px auto;
 }
 
 .user-projects {
