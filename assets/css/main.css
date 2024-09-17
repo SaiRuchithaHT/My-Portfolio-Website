@@ -4012,25 +4012,25 @@ body.is-preload #header.alt .logo {
   border-radius: 2px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 251, 252, 0.227);
 }
 
 .row {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 2em;
   flex-wrap: wrap;
   margin-top: 2em;
 }
 
 .ExperienceCard_container_aokeq {
-  background-color: white;
+  background-color: rgb(255, 248, 251);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width: calc(33.333% - 2em); 
   margin: 1em;
+  padding: 0 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -4052,10 +4052,15 @@ body.is-preload #header.alt .logo {
   text-align: center;
 }
 
+.card-body h5{
+  font-size: 1.005em;
+  font-weight: 400;
+}
+
 .card-title {
   font-size: 1.2em;
   margin-bottom: 0.5em;
-  font-weight: bolder;
+  font-weight: bold;
   color: #333;
 }
 
@@ -4086,7 +4091,12 @@ body.is-preload #header.alt .logo {
   color: white;
 }
 
-/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+  .ExperienceCard_container_aokeq {
+    width: calc(50% - 2em); 
+  }
+}
+
 @media screen and (max-width: 768px) {
   .row {
     flex-direction: column;
