@@ -4166,3 +4166,72 @@ body.is-preload #header.alt .logo {
   color: #fff;
   transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
+
+/* html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../../images/background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed; 
+} */
+
+/* Technical Section*/
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tech {
+  flex-basis: 23%;
+  margin: 20px 0;
+  text-align: left; 
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.tech h2 {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.tech i {
+  font-size: 2em;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block; 
+}
+
+.tech {
+  color: #3a3a3a;
+}
+
+.tech i + span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.2em;
+  color: #d1d1d1;
+}
+
+.tech i {
+  margin-right: 10px;
+}
+
+.eachTech {
+  width: 50%; 
+  box-sizing: border-box; 
+  padding: 10px; 
+  text-align: center; 
+}
