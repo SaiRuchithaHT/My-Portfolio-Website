@@ -3988,9 +3988,11 @@ body.is-preload #header.alt .logo {
 .row {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   flex-wrap: wrap;
   margin-top: 2em;
+  width: 100%;
+  min-height: 100%;
 }
 
 .ExperienceCard_container_aokeq {
@@ -4020,6 +4022,11 @@ body.is-preload #header.alt .logo {
 .card-body {
   padding: 1.5em;
   text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .card-body h5{
