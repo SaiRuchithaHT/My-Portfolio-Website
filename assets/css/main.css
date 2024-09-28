@@ -4015,8 +4015,9 @@ body.is-preload #header.alt .logo {
 }
 
 .ExperienceCard_image_f3Y8P {
-  width: 100%;
-  height: auto;
+    width:  400px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .card-body {
