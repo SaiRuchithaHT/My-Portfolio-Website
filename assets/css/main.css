@@ -2744,31 +2744,6 @@ section.special,
 article.special {
   text-align: center;
 }
-/* remove */
-/* #header {
-  padding: 5em 5em 1em 5em;
-  text-align: center;
-  background: url('images/background.webp') no-repeat center center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-} 
-body {
-  background-color: #000000;
-  background-image: linear-gradient(180deg, #000000 0%, #a9a9a9 100%);
-  background-size: 100% ; 
-  transition: background 0.5s ease-in-out;
-}
-
-#header.alt {
-  background-color: rgba(0, 0, 0, 0.75); 
-}
-
-#main {
-  background-color: transparent; 
-  padding-top: 2em;
-  padding-bottom: 3em;
-} */
 
 header.major {
   margin-bottom: 3em;
@@ -4175,22 +4150,8 @@ body.is-preload #header.alt .logo {
   transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
 }
 
-/* html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background-image: url('../../images/background.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  background-attachment: fixed; 
-} */
-
 /* Technical Section*/
+
 .user {
   display: flex;
   flex-wrap: wrap;
